@@ -11,31 +11,28 @@ import org.junit.Test;
 import by.zhdanovich.triangle.action.ActionPoint;
 import by.zhdanovich.triangle.entity.Point;
 import by.zhdanovich.triangle.entity.Triangle;
-import by.zhdanovich.triangle.parser.ParserText;
+
 
 public class ActionPointTest {
-	private static ActionPoint action;
-	private static ParserText parser;
-	private static List<Double> array;
-	private static Point a;
-	private static Point b;
-	private static Point c;
-	private static Triangle t;
+	public static Point a;
+	public static Point b;
+	public static Point c;
+	public static Triangle t;
+	public static ActionPoint action;
 	
 	@BeforeClass
-	public static void init() throws IOException{
-	parser = new ParserText();
-	array = parser.parseFromFile();
-	a = new Point(array.get(0), array.get(1));
-	b = new Point(array.get(2), array.get(3));
-	c = new Point(array.get(4), array.get(5));	
-	t = new Triangle(a,b,c);	
+	
+	public static void init(){	
+		a = new Point(1.0, -1.0);
+		 b = new Point(5.0, -2.);
+		 c = new Point(1.0, -3.0);
+		 t= new Triangle(a,b,c);
 	action = new ActionPoint();
 	}
 	
 	
 	@Test
-	public void areaTest(){
+	public void areaTest(){		 
 		 double expected = 12.0; 
 		 double actual = action.area(t);  		 
 		 Assert.assertEquals(expected, actual, 0.01); 
@@ -50,6 +47,7 @@ public class ActionPointTest {
 	}
 	@Test
 	public void checkPointLineTest(){
+		
 		boolean actual = action.checkPointLine(a, b, c);
 		Assert.assertTrue("test failed", actual);
 	}
