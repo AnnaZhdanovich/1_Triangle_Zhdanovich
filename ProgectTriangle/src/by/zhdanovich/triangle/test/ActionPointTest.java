@@ -1,14 +1,11 @@
 package by.zhdanovich.triangle.test;
-import java.io.IOException;
 
-import java.util.List;
-
+import org.junit.AfterClass;
 import org.junit.Assert;
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import by.zhdanovich.triangle.action.ActionPoint;
+import by.zhdanovich.triangle.action.ActionTriangle;
 import by.zhdanovich.triangle.entity.Point;
 import by.zhdanovich.triangle.entity.Triangle;
 
@@ -18,37 +15,43 @@ public class ActionPointTest {
 	public static Point b;
 	public static Point c;
 	public static Triangle t;
-	public static ActionPoint action;
+	public static ActionTriangle action;
 	
-	@BeforeClass
-	
+	@BeforeClass	
 	public static void init(){	
-		a = new Point(1.0, -1.0);
-		 b = new Point(5.0, -2.);
-		 c = new Point(1.0, -3.0);
-		 t= new Triangle(a,b,c);
-	action = new ActionPoint();
-	}
+		a = new Point(1.0, 1.0);
+		b = new Point(-2.0, 5.0);
+		c = new Point(6.0, 7.0);
+		t= new Triangle(a,b,c);
+	    action = new ActionTriangle();
+	}	
 	
+	@AfterClass	
+	public static void clear(){	
+		a =null;
+		b = null;
+		c = null;
+		t= null;
+	    action = null;
+	}	
 	
 	@Test
 	public void areaTest(){		 
-		 double expected = 12.0; 
+		 double expected = 19.0; 
 		 double actual = action.area(t);  		 
 		 Assert.assertEquals(expected, actual, 0.01); 
 	}
 	
 	@Test
 	public void perimeterTest(){
-		double expected = 16.398147902301346; 
+		double expected = 21.05; 
 		 double actual = action.perimeter(t);  
 		 Assert.assertEquals(expected, actual, 0.01);  
 		
 	}
 	@Test
-	public void checkPointLineTest(){
-		
-		boolean actual = action.checkPointLine(a, b, c);
+	public void checkPointLineTestTrue(){		
+		boolean actual = action.checkPointLine(t);
 		Assert.assertTrue("test failed", actual);
 	}
 	
@@ -58,10 +61,5 @@ public class ActionPointTest {
 		Assert.assertFalse("test failed", actual);
 		
 }
-	@Test
-	public void createSideTest(){
-		 double expected = 4.24; 
-		 double actual = action.createSide(a, b);  		 
-		 Assert.assertEquals(expected, actual, 0.01); 
-	}
+	
 }

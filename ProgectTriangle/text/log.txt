@@ -1,0 +1,223 @@
+2016-10-07T15:06:43,308 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:06:43,330 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:18:56,055 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:18:56,077 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:19:07,629 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:19:07,670 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:19:38,251 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:19:38,282 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-07T15:20:14,736 [FATAL] (ParseFile.java:50) - file was not found
+java.io.FileNotFoundException: text\data.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_91]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_91]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:36) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T10:40:50,028 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T10:40:50,066 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T11:33:03,503 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T11:33:03,535 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T11:33:03,538 [ERROR] (ParseFile.java:46) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:40) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T12:54:40,517 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T12:54:40,551 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T12:54:40,555 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T13:19:09,030 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T13:19:09,048 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T13:19:09,050 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T15:10:27,245 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T15:10:27,285 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-08T15:10:27,287 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:13) [bin/:?]
+2016-10-09T14:59:07,847 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:12) [bin/:?]
+2016-10-09T14:59:07,869 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:12) [bin/:?]
+2016-10-09T14:59:07,871 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:12) [bin/:?]
+2016-10-09T16:04:31,162 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:12) [bin/:?]
+2016-10-09T16:04:31,196 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:12) [bin/:?]
+2016-10-09T16:04:31,200 [ERROR] (ParseFile.java:44) - The entered coordinates are wrong 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.parser.ParseFile.checkTriangle(ParseFile.java:38) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:12) [bin/:?]
+2016-10-09T17:58:45,755 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:21) [bin/:?]
+2016-10-09T17:58:45,848 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:21) [bin/:?]
+2016-10-09T17:58:45,850 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:21) [bin/:?]
+2016-10-09T18:31:04,801 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:18) [bin/:?]
+2016-10-09T18:31:04,889 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:18) [bin/:?]
+2016-10-09T18:31:04,892 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:18) [bin/:?]
+2016-10-09T18:34:18,127 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:18) [bin/:?]
+2016-10-09T18:34:18,151 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:18) [bin/:?]
+2016-10-09T18:34:18,153 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:18) [bin/:?]
+2016-10-09T18:37:46,623 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
+2016-10-09T18:37:46,646 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:18) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
+2016-10-09T18:37:46,648 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
+2016-10-09T18:41:15,093 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:19) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
+2016-10-09T18:41:15,117 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:19) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
+2016-10-09T18:41:15,120 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:27) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
