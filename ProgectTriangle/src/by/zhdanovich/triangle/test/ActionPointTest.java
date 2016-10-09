@@ -3,7 +3,9 @@ package by.zhdanovich.triangle.test;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.Timeout;
 
 import by.zhdanovich.triangle.action.ActionTriangle;
 import by.zhdanovich.triangle.entity.Point;
@@ -18,7 +20,7 @@ public class ActionPointTest {
 	public static ActionTriangle action;
 	
 	@BeforeClass	
-	public static void init(){	
+	public static void init(){
 		a = new Point(1.0, 1.0);
 		b = new Point(-2.0, 5.0);
 		c = new Point(6.0, 7.0);
@@ -28,20 +30,19 @@ public class ActionPointTest {
 	
 	@AfterClass	
 	public static void clear(){	
-		a =null;
+		a = null;
 		b = null;
 		c = null;
 		t= null;
-	    action = null;
-	}	
-	
+		  action = null;
+	}		
+	@Rule public final Timeout timeout = new Timeout(50); 
 	@Test
-	public void areaTest(){		 
+	public void areaTest(){		
 		 double expected = 19.0; 
 		 double actual = action.area(t);  		 
 		 Assert.assertEquals(expected, actual, 0.01); 
-	}
-	
+	}	
 	@Test
 	public void perimeterTest(){
 		double expected = 21.05; 
@@ -50,13 +51,13 @@ public class ActionPointTest {
 		
 	}
 	@Test
-	public void checkPointLineTestTrue(){		
+	public void checkPointLineTestFalse(){	
 		boolean actual = action.checkPointLine(t);
-		Assert.assertTrue("test failed", actual);
+		Assert.assertFalse("test failed", actual);
 	}
 	
 	@Test
-	public void checkRectangularTest(){		
+	public void checkRectangularTest(){	
 		boolean actual = action.checkRectangular(t);
 		Assert.assertFalse("test failed", actual);
 		

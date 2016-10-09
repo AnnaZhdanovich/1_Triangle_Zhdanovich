@@ -7,12 +7,10 @@ import java.util.regex.Pattern;
 
 import by.zhdanovich.triangle.exception.WrongCoordinateException;
 
-public class ParseText {
-	
+public class ParseText {	
 	public final String REG1= "(\\s*)(;)(\\s*)";
 	public final String REG2= "(^-{0,1})(\\d+)(\\.{0,1})(\\d*$)";
-	public List<Double> parseText(String str) throws WrongCoordinateException{
-		 
+public List<Double> parseText(String str) throws WrongCoordinateException{
 		
 	 String[] numbers = str.split(REG1);	 
 	   if (numbers.length<5){	
@@ -29,8 +27,8 @@ public class ParseText {
 		   }
 		   
 		    return list;
-		  }
-	   }
+		}
+ }
 		
 	   
 
