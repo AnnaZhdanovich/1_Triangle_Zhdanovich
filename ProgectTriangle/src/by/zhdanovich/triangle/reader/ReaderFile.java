@@ -1,4 +1,4 @@
-package by.zhdanovich.triangle.parser;
+package by.zhdanovich.triangle.reader;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -13,22 +13,29 @@ import org.apache.logging.log4j.Logger;
 public class ReaderFile {
 private static Logger log = LogManager.getLogger(ReaderFile.class);
 
-
-public List<String> readeFile(String FILE_NAME, String UNICODE ){	
+public List<String> readeFile(String fileName, String unicode){	
 List<String> list = new ArrayList<String>();
 String str;
 BufferedReader br=null;
 try {
-    br = new BufferedReader(new InputStreamReader(new FileInputStream(FILE_NAME), UNICODE));    
+    br = new BufferedReader(new InputStreamReader(new FileInputStream(fileName), unicode));    
   	while((str = br.readLine())!= null ){    			
-  		list.add(str);
-  	}
+ 		list.add(str);
+ 	}	
 }  catch (FileNotFoundException e) {	
 	   log.fatal("file was not found", e);
 	   throw new RuntimeException();
 } catch (IOException e) {	
-	   log.error("IOException:", e); 
-}
+	   log.error("file read error", e); 
+}finally { 	
+		if (br != null) {   
+			try {
+				br.close();
+			} catch (IOException e) {
+				 log.error("Error closing the stream ", e); 
+			}   
+			}  
+}	
 return list; 
 }
  	

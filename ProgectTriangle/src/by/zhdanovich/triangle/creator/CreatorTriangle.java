@@ -2,19 +2,19 @@ package by.zhdanovich.triangle.creator;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import by.zhdanovich.triangle.entity.Point;
 import by.zhdanovich.triangle.entity.Triangle;
 import by.zhdanovich.triangle.exception.WrongCoordinateException;
-import by.zhdanovich.triangle.parser.ParseText;
+import by.zhdanovich.triangle.parser.ParserText;
+
 
 public class CreatorTriangle {
 	private static Logger log = LogManager.getLogger(CreatorTriangle.class);
 	
-	public List<Triangle> create(List<String> list){
-		ParseText parser = new ParseText();
+public List<Triangle> create(List<String> list){
+		ParserText parser = new ParserText();
 		List<Triangle> triangles= new ArrayList<Triangle>();
 	for(String s : list){
 		try {			
@@ -24,10 +24,10 @@ public class CreatorTriangle {
 			log.error("error source data ", e);
 		}
 	}
-		return triangles;		
+	return triangles;		
 	}
 	
-	public Triangle createTriangle(List<Double> list){		
+	private Triangle createTriangle(List<Double> list){		
 		Point a = new Point(list.get(0),list.get(1));
 		Point b = new Point(list.get(2),list.get(3));
 		Point c =new Point(list.get(4),list.get(5));		
