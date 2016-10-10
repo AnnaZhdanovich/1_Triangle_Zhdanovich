@@ -30,7 +30,7 @@ public void doAction(){
 		System.out.println(action.checkRectangular(tr));		
 	}			
 	}catch(RuntimeException e)	{
-		log.error("file not found", e); 
+		log.error("File not found", e); 
 	}
 }
 	

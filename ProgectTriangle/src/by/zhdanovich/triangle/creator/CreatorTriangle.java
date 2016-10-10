@@ -21,7 +21,7 @@ public List<Triangle> create(List<String> list){
 		Triangle t = this.createTriangle(parser.parseText(s));
 		triangles.add(t);
 		} catch (WrongCoordinateException e) {
-			log.error("error source data ", e);
+			log.error("Incorrect input data ", e);
 		}
 	}
 	return triangles;		

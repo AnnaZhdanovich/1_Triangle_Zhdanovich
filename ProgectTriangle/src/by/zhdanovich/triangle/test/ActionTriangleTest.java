@@ -12,7 +12,7 @@ import by.zhdanovich.triangle.entity.Point;
 import by.zhdanovich.triangle.entity.Triangle;
 
 
-public class ActionPointTest {
+public class ActionTriangleTest {
 	public static Point a;
 	public static Point b;
 	public static Point c;
@@ -36,7 +36,7 @@ public class ActionPointTest {
 		t= null;
 		  action = null;
 	}		
-	@Rule public final Timeout timeout = new Timeout(50); 
+	
 	@Test
 	public void areaTest(){		
 		 double expected = 19.0; 

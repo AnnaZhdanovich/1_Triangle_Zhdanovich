@@ -23,10 +23,10 @@ try {
  		list.add(str);
  	}	
 }  catch (FileNotFoundException e) {	
-	   log.fatal("file was not found", e);
+	   log.fatal("File was not found", e);
 	   throw new RuntimeException();
 } catch (IOException e) {	
-	   log.error("file read error", e); 
+	   log.error("File read error", e); 
 }finally { 	
 		if (br != null) {   
 			try {

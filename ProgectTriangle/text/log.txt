@@ -13,3 +13,39 @@ by.zhdanovich.triangle.exception.WrongCoordinateException
 	at by.zhdanovich.triangle.parser.ParseText.parseText(ParseText.java:25) ~[bin/:?]
 	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
 	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:23) [bin/:?]
+2016-10-11T00:15:32,091 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParserText.parseText(ParserText.java:17) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.performer.PerformerAction.doAction(PerformerAction.java:25) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:11) [bin/:?]
+2016-10-11T00:15:32,115 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParserText.parseText(ParserText.java:17) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.performer.PerformerAction.doAction(PerformerAction.java:25) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:11) [bin/:?]
+2016-10-11T00:15:32,120 [ERROR] (CreatorTriangle.java:24) - error source data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParserText.parseText(ParserText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.performer.PerformerAction.doAction(PerformerAction.java:25) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:11) [bin/:?]
+2016-10-11T00:18:41,938 [ERROR] (CreatorTriangle.java:24) - Incorrect input data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParserText.parseText(ParserText.java:17) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.performer.PerformerAction.doAction(PerformerAction.java:25) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:11) [bin/:?]
+2016-10-11T00:18:41,971 [ERROR] (CreatorTriangle.java:24) - Incorrect input data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParserText.parseText(ParserText.java:17) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.performer.PerformerAction.doAction(PerformerAction.java:25) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:11) [bin/:?]
+2016-10-11T00:18:41,974 [ERROR] (CreatorTriangle.java:24) - Incorrect input data 
+by.zhdanovich.triangle.exception.WrongCoordinateException
+	at by.zhdanovich.triangle.parser.ParserText.parseText(ParserText.java:26) ~[bin/:?]
+	at by.zhdanovich.triangle.creator.CreatorTriangle.create(CreatorTriangle.java:21) [bin/:?]
+	at by.zhdanovich.triangle.performer.PerformerAction.doAction(PerformerAction.java:25) [bin/:?]
+	at by.zhdanovich.triangle.start.StartTask.main(StartTask.java:11) [bin/:?]
