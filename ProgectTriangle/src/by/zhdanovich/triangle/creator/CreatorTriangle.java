@@ -15,19 +15,19 @@ public class CreatorTriangle {
 	
 public List<Triangle> create(List<String> list){
 		ParserText parser = new ParserText();
-		List<Triangle> triangles= new ArrayList<Triangle>();
+		List<Triangle> triangles= new ArrayList<Triangle>();		
 	for(String s : list){
 		try {			
 		Triangle t = this.createTriangle(parser.parseText(s));
 		triangles.add(t);
 		} catch (WrongCoordinateException e) {
-			log.error("Incorrect input data ", e);
+			log.error("Data error ", e);
 		}
 	}
 	return triangles;		
 	}
 	
-	private Triangle createTriangle(List<Double> list){		
+	private Triangle createTriangle(List<Double> list){	
 		Point a = new Point(list.get(0),list.get(1));
 		Point b = new Point(list.get(2),list.get(3));
 		Point c =new Point(list.get(4),list.get(5));		

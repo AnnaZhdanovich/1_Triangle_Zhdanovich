@@ -10,11 +10,10 @@ import by.zhdanovich.triangle.exception.WrongCoordinateException;
 public class ParserText {	
 	public final String DELIMITER= "\\s*;\\s*";
 	public final String REGEXP= "^-{0,1}\\d+\\.{0,1}\\d*$";
-public List<Double> parseText(String str) throws WrongCoordinateException{	
-	
+public List<Double> parseText(String str) throws WrongCoordinateException{		
  String[] numbers = str.split(DELIMITER);	 
-	if (numbers.length < 5){	
-	throw new WrongCoordinateException();  
+	if (numbers.length < 6){	
+	throw new WrongCoordinateException("Not enough data");  
 	}
 	List<Double> list = new ArrayList<Double>();
     for (int i = 0; i < 6; i++ ){
@@ -23,7 +22,7 @@ public List<Double> parseText(String str) throws WrongCoordinateException{
 	if (m.matches()){	   
 	 list.add(Double.parseDouble(numbers[i])); }			   
 	else{
-		throw new WrongCoordinateException(); 
+		throw new WrongCoordinateException("Input data is not correct"); 
 	}
     } 
 	 return list;

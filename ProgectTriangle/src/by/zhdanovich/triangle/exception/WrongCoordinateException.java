@@ -2,6 +2,8 @@ package by.zhdanovich.triangle.exception;
 
 public class WrongCoordinateException extends Exception {
 
+	private static final long serialVersionUID = 1L;
+
 	public WrongCoordinateException() {
 		super();		
 	}

@@ -3,10 +3,7 @@ package by.zhdanovich.triangle.test;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.Timeout;
-
 import by.zhdanovich.triangle.action.ActionTriangle;
 import by.zhdanovich.triangle.entity.Point;
 import by.zhdanovich.triangle.entity.Triangle;
@@ -51,9 +48,9 @@ public class ActionTriangleTest {
 		
 	}
 	@Test
-	public void checkPointLineTestFalse(){	
+	public void checkPointLineTestTrue(){	
 		boolean actual = action.checkPointLine(t);
-		Assert.assertFalse("test failed", actual);
+		Assert.assertTrue("test failed", actual);
 	}
 	
 	@Test

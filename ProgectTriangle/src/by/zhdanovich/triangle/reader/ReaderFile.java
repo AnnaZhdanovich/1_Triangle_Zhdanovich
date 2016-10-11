@@ -6,14 +6,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ReaderFile {
 private static Logger log = LogManager.getLogger(ReaderFile.class);
 
-public List<String> readeFile(String fileName, String unicode){	
+public List<String> readFile(String fileName, String unicode){	
 List<String> list = new ArrayList<String>();
 String str;
 BufferedReader br=null;
@@ -24,7 +23,7 @@ try {
  	}	
 }  catch (FileNotFoundException e) {	
 	   log.fatal("File was not found", e);
-	   throw new RuntimeException();
+	   throw new RuntimeException("File was not found, the application can not continue to work");
 } catch (IOException e) {	
 	   log.error("File read error", e); 
 }finally { 	
@@ -34,7 +33,7 @@ try {
 			} catch (IOException e) {
 				 log.error("Error closing the stream ", e); 
 			}   
-			}  
+		}  
 }	
 return list; 
 }
